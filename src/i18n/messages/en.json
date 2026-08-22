@@ -1,0 +1,7 @@
+{
+  "booking": {
+    "healthcheckTitle": "OmaBo Booking",
+    "backendStatusOk": "Backend: connected",
+    "backendStatusError": "Backend: unreachable"
+  }
+}
