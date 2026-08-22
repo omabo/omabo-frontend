@@ -1,7 +1,95 @@
 {
   "booking": {
-    "healthcheckTitle": "OmaBo Booking",
-    "backendStatusOk": "Backend: connected",
-    "backendStatusError": "Backend: unreachable"
+    "common": {
+      "back": "Back to previous step",
+      "progress": "Booking progress"
+    },
+    "holdCountdown": {
+      "label": "Your table is held for"
+    },
+    "top": {
+      "eyebrow": "Online reservations",
+      "tagline": "Book your table online in a couple of minutes.",
+      "cta": "Reserve a table",
+      "pausedNotice": "Online booking is temporarily unavailable. Please contact us directly to make a reservation.",
+      "closedNotice": "We are not accepting online reservations right now. Please check back later.",
+      "contactPrefix": "Questions? Reach us at"
+    },
+    "date": {
+      "heading": "Choose a date & time",
+      "subheading": "Availability shown is for the next three weeks.",
+      "prevMonth": "Previous month",
+      "nextMonth": "Next month"
+    },
+    "time": {
+      "statusFull": "Fully booked",
+      "statusAlmostFull": "Almost full"
+    },
+    "plan": {
+      "heading": "Choose a plan",
+      "partyRange": "Seats {min}–{max} guests",
+      "slotFullError": "The selected slot is now full. Please choose another time."
+    },
+    "party": {
+      "heading": "How many guests?",
+      "decrease": "Decrease party size",
+      "increase": "Increase party size",
+      "range": "This plan seats {min} to {max} guests",
+      "continue": "Continue"
+    },
+    "guestInfo": {
+      "heading": "Your details",
+      "checkingAvailability": "Checking availability…",
+      "nameLabel": "Full name",
+      "emailLabel": "Email",
+      "demoHint": "Demo tip: include \"fail\", \"conflict\", or \"review\" in the email to preview those outcomes at payment.",
+      "phoneLabel": "Phone number",
+      "notesLabel": "Notes (optional)",
+      "notesPlaceholder": "Allergies, special occasions, seating preferences…",
+      "continue": "Continue to payment",
+      "partyCount": "{count, plural, one {# guest} other {# guests}}"
+    },
+    "payment": {
+      "heading": "Payment",
+      "partyCount": "{count, plural, one {# guest} other {# guests}}",
+      "total": "Total",
+      "disclaimer": "Payment processing will be enabled in a future release. Confirming now will place your reservation without a charge.",
+      "processing": "Processing…",
+      "payButton": "Confirm reservation"
+    },
+    "confirmation": {
+      "missingDetails": "We couldn't find the details for this confirmation.",
+      "startOver": "Start a new reservation",
+      "confirmedHeading": "You're all set",
+      "confirmedBody": "A confirmation email is on its way. You can view or change your reservation anytime using the link in that email.",
+      "reviewHeading": "Almost there",
+      "reviewBody": "Your payment went through, but we need to double-check availability for this slot. The restaurant will confirm shortly.",
+      "codeLabel": "Reservation code",
+      "partyCount": "{count, plural, one {# guest} other {# guests}}",
+      "manageHint": "Need to change or cancel?",
+      "manageLink": "Manage your reservation"
+    },
+    "manage": {
+      "invalidTitle": "This link is no longer valid",
+      "invalidBody": "The reservation link has expired or doesn't exist. Please contact the restaurant directly for help.",
+      "statusCancelled": "Cancelled",
+      "supersededBody": "This reservation was changed and replaced by a newer one.",
+      "viewNew": "View current reservation",
+      "codeChangedTitle": "Your reservation number has changed",
+      "codeChangedBody": "Your previous code {oldCode} is no longer valid — please use {newCode} going forward.",
+      "codeLabel": "Reservation code",
+      "partyCount": "{count, plural, one {# guest} other {# guests}}",
+      "guestLabel": "Guest",
+      "changePartySize": "Change party size",
+      "cancelButton": "Cancel reservation",
+      "deadlinePassedNote": "The cancellation window for this reservation has passed. Please contact the restaurant directly.",
+      "cancelConfirmBody": "Are you sure you want to cancel this reservation? This can't be undone.",
+      "confirmCancel": "Yes, cancel it",
+      "keepReservation": "No, keep it",
+      "changeReassurance": "Your current reservation stays as-is unless this change can be confirmed.",
+      "partySizeLabel": "New party size",
+      "saveChanges": "Save changes",
+      "cancelEdit": "Never mind"
+    }
   }
 }
