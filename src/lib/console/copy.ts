@@ -1,0 +1,48 @@
+export const consoleCopy = {
+  login: {
+    title: "omabo Platform Console",
+    subtitle: "運営者用ログイン",
+    email: "メールアドレス",
+    password: "パスワード",
+    submit: "ログイン",
+  },
+  tenants: {
+    title: "テナント一覧",
+    create: "新規テナント作成",
+    name: "テナント名",
+    slug: "slug",
+    contactEmail: "連絡先メール",
+    plan: "プラン",
+    status: "状態",
+    active: "稼働中",
+    suspended: "停止中",
+    createdAt: "作成日",
+  },
+  createTenant: {
+    title: "新規テナント作成",
+    submit: "作成する",
+  },
+  tenantDetail: {
+    title: "テナント詳細",
+    suspend: "停止する",
+    activate: "再開する",
+    accessSection: "特権アクセス",
+    accessReason: "アクセス理由",
+    accessButton: "このテナントにアクセス",
+    accessNote: "実際のテナントデータ閲覧はPhase 0では未実装です。アクセス操作の記録のみ行います。",
+    accessRecorded: "アクセスを記録しました。",
+  },
+  privilegedAccessLog: {
+    title: "特権アクセスログ",
+    empty: "まだアクセス履歴がありません。",
+    time: "日時",
+    operator: "運営者",
+    tenant: "テナント",
+    reason: "理由",
+  },
+  nav: {
+    tenants: "テナント一覧",
+    privilegedAccessLog: "特権アクセスログ",
+    logout: "ログアウト",
+  },
+} as const;
